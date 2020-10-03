@@ -1,0 +1,27 @@
+
+dependencies:
+  - @babel/runtime
+
+devDependencies:
+  - webpack 
+  - webpack-cli 
+  - webpack-dev-server 
+  - css-loader 
+  - style-loader 
+  - file-loader 
+  - babel-loader 
+  - @babel/core 
+  - @babel/preset-env 
+  - @babel/preset-react 
+  - @babel/plugin-syntax-dynamic-import 
+  - @babel/plugin-transform-runtime 
+  - @babel/plugin-proposal-class-properties 
+  - html-webpack-plugin
+  - mini-css-extract-plugin
+
+  - add-asset-html-webpack-plugin : Es necesario para agregar assets en el html procesado, como por ejemplo el dll modules.js
+  - clean-webpack-plugin : ayuda a limpiar los archivos generados anteriormente en en los builds
+  - terser-webpack-plugin : minificador de js
+  - optimize-css-assets-webpack-plugin : minificador de css
+  
+  
